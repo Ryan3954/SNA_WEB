@@ -1,0 +1,125 @@
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header{
+    background-color: bisque;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    padding: 20px;
+}
+  
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+nav li{
+    display: inline-block;
+    margin-right: 10px;
+}
+  
+nav a{
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+  
+nav a:hover{
+    background-color: orange;
+}
+
+.title{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+body{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    flex: 1;
+}
+
+footer{
+    margin-top: auto;
+    padding-top: 30px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color: bisque;
+}
+
+.join-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    width: 5%;
+}
+  
+.join-button:hover {
+    background-color: #e53935;
+}
+  
+.logo{
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    width: 30px;
+    height: auto;
+    display: inline;
+}
+
+#aboutus h2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 72px;
+    margin-top: 5px;
+}
+
+#ourteam h2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin-top: -50px;
+}
+
+figure.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    padding-left: 200px;
+}
+figure img {
+    width: 150%;
+    height: 150%;
+}
+.caption {
+    display: block;
+    padding-left: 60px;
+}
+
+
+
+
+
+
